@@ -5,7 +5,7 @@ body{
     -moz-user-select:none;
     -ms-user-select:none;
     -khtml-user-select:none;
-    -webkit-user-select:none
+    -webkit-user-select:none;
 }
 input[type=text]:focus{
     outline: none;
@@ -50,6 +50,25 @@ input[type=text]:focus{
   outline: none;
   box-shadow: none;
 }
+@media (min-width: 992px) {
+    .login{
+        margin-right: 10px;
+        margin-left: 8px;
+    }
+    .categories-dropdown:hover{
+        color: white;
+        background-color:  #1c375b;
+    }
+}
+@media (max-width:  979px) {
+    .line{
+        display: none;
+    }
+    .top-categories h4{
+        display: none;
+    }
+}
+
 /* button end*/
 /* navbar end*/
 
@@ -61,7 +80,7 @@ input[type=text]:focus{
   object-fit: cover;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 979px) {
   .carousel-thumb {
     margin-top: 50px;
     width: 100%;
@@ -75,6 +94,7 @@ input[type=text]:focus{
       margin-top: 50px;
   }
 }
+
 /* banner end */
 
 /* hero start */
@@ -96,6 +116,29 @@ input[type=text]:focus{
 .form-control{
     outline: none;
     box-shadow: none;
+}
+@media (max-width:  979px) {
+    .top-categories h4{
+        display: none;
+    }
+    .info-hero{
+    padding: 20px;
+    }
+    .title-info{
+        font-size: 20px;
+    }
+    .title-desc{
+        font-size: 12px;
+    }
+    .place-s{
+        font-size: 13px;
+    }
+    .btn-s{
+        padding-bottom: 1px;
+    }
+    .crsl-category{
+        display: none;
+    }
 }
 /* hero end */
 
@@ -155,48 +198,83 @@ img.card-img-top {
 }
 /* content end */
 
+/* jumbotron start */
+.jmbt-instructor{
+    margin-top: 50px;
+    background-color: 	#1c375b;
 
-/* dekstop */
-@media (min-width: 992px) {
-    .login{
-        margin-right: 10px;
-        margin-left: 8px;
-    }
-    .categories-dropdown:hover{
-        color: white;
-        background-color:  #1c375b;
-    }
 }
-
-
-/* mobile */
+.display-4{
+    font-size: 35px;
+    color: #f5f5f5;
+}
+.lead{
+    font-size: 17px;
+    color: #f5f5f5;
+}
+.bergabung-btn{
+    background-color: #f5f5f5;
+    color: #1c375b;
+}
+.bergabung-btn:hover{
+    background-color: #6f8197;
+    color: #f5f5f5;
+}
 @media (max-width:  979px) {
-    .line{
-        display: none;
-    }
-    .top-categories h4{
-        display: none;
-    }
-    .info-hero{
-    padding: 20px;
-    }
-    .title-info{
+    .display-4{
         font-size: 20px;
     }
-    .title-desc{
+    .lead{
         font-size: 12px;
     }
-    .place-s{
-        font-size: 13px;
+}
+/* jumbotron end */
+
+/* footer start */
+footer .main-footer{	
+    padding: 20px 0;	
+    background: white;
+    margin-top: 100px;
+}
+footer ul{	
+    padding-left: 0;	
+    list-style: none;
+}
+
+.footer-copyright {	
+    background: #1c375b;	
+    padding: 5px 0;
+    color: white;
+}
+
+.footer-copyright p {	
+    color: #f5f5f5;	
+    margin: 2px 0 0;
+    font-size: 15px;
+}
+
+.widget.no-box{	
+    padding: 0;		
+    margin-bottom: 40px;
+    box-shadow: none; 
+}
+
+.widget li a{	
+    color: black;
+}
+
+.typo-light h1{	
+    color: black;
+}
+.email a{
+    color: black;
+}
+@media (max-width:  979px) {
+    .widget p{
+        font-size: 15px;
     }
-    .btn-s{
-        padding-bottom: 1px;
-    }
-    .crsl-category{
-        display: none;
-    }
-    img.card-img-top {
-    height: 6rem;
-    object-fit: cover;
+    .thumb-content{
+        font-size: 15px;
     }
 }
+/* footer end */
