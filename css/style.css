@@ -125,6 +125,28 @@ img.card-img-top {
     margin: 0;
     color: rgba(0,0,0,.5);;
 }
+@media (max-width:  979px) {
+    .card-body{
+        padding: 0.8rem;
+    }
+    .card-title {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .card-name {
+        font-size: 0.7rem;
+        margin: 0;
+        color: rgba(0,0,0,.5);;
+    }
+    .card-text {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    img.card-img-top {
+        height: 6rem;
+        object-fit: cover;
+    }
+}
 /* content end */
 
 
@@ -166,5 +188,9 @@ img.card-img-top {
     }
     .crsl-category{
         display: none;
+    }
+    img.card-img-top {
+    height: 6rem;
+    object-fit: cover;
     }
 }
