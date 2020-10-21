@@ -87,12 +87,6 @@ input[type=text]:focus{
     height: 200px;
     object-fit: cover;
   }
-  .carousel-control-prev{
-      margin-top: 50px;
-  }
-  .carousel-control-next{
-      margin-top: 50px;
-  }
 }
 
 /* banner end */
@@ -234,7 +228,7 @@ img.card-img-top {
 footer .main-footer{	
     padding: 20px 0;	
     background: white;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 footer ul{	
     padding-left: 0;	
