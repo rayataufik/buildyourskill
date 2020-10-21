@@ -276,5 +276,8 @@ footer ul{
     .thumb-content{
         font-size: 15px;
     }
+    footer .main-footer{
+    margin-top: 40px;
+}
 }
 /* footer end */
