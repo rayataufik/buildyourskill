@@ -126,6 +126,12 @@ img.card-img-top {
     color: rgba(0,0,0,.5);;
 }
 @media (max-width:  979px) {
+    h2.list-title{
+        font-size: 30px;
+    }
+    p.list-text{
+        font-size: 15px;
+    }
     .card-body{
         padding: 0.8rem;
     }
