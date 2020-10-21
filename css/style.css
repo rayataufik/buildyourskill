@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+input[type=text]:focus{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+/* navbar start*/
+.navbar{
+    -webkit-box-shadow: 0px 7px 21px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 21px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 21px -15px rgba(0,0,0,0.75);
+}
+
+/* button start*/
+.login{
+    color: #1c375b;
+    border-color: #1c375b;
+}
+.login:hover{
+    background-color: #1c375b;
+    border-color: #1c375b;
+    color: white;
+}
+
+.line{
+    font-size: 25px;
+    color: rgba(0,0,0,.5);
+    font-weight: 100;
+}
+
+.daftar{
+    color: white;
+    background-color: #1c375b;
+    border-color: #1c375b;
+}
+.daftar:hover{
+    color: #1c375b;
+    background-color: white;
+    border-color: #1c375b;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* button end*/
+/* navbar end*/
+
+/* banner start */
+.carousel-thumb {
+  margin-top: 50px;
+  width: 100%;  /*1200px*/
+  height: 500px; /*500px*/
+  object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-thumb {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .carousel-control-prev{
+      margin-top: 50px;
+  }
+  .carousel-control-next{
+      margin-top: 50px;
+  }
+}
+/* banner end */
+
+/* hero start */
+.info-hero{
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    background-color: white;
+    padding: 25px;
+}
+.carousel2{
+    position: relative;
+    top: 0;
+}
+.top-categories img{
+    width: 100px;
+    border-radius: 10px;
+}
+.form-control{
+    outline: none;
+    box-shadow: none;
+}
+/* hero end */
+
+/* content start */
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
+img.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.card-text {
+    font-size: 0.875rem;
+    margin: 0;
+}
+.card-name {
+    font-size: 12px;
+    margin: 0;
+    color: rgba(0,0,0,.5);;
+}
+/* content end */
+
+
+/* dekstop */
+@media (min-width: 992px) {
+    .login{
+        margin-right: 10px;
+        margin-left: 8px;
+    }
+    .categories-dropdown:hover{
+        color: white;
+        background-color:  #1c375b;
+    }
+}
+
+
+/* mobile */
+@media (max-width:  979px) {
+    .line{
+        display: none;
+    }
+    .top-categories h4{
+        display: none;
+    }
+    .info-hero{
+    padding: 20px;
+    }
+    .title-info{
+        font-size: 20px;
+    }
+    .title-desc{
+        font-size: 12px;
+    }
+    .place-s{
+        font-size: 13px;
+    }
+    .btn-s{
+        padding-bottom: 1px;
+    }
+    .crsl-category{
+        display: none;
+    }
+}
