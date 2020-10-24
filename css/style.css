@@ -304,3 +304,82 @@ a.back{
     color: #1c375b;
 }
 /* login page end */
+
+.detail{
+    margin-top: 120px;
+}
+.plyr{
+    border-radius: 5px;
+}
+
+.item-class-tool{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.item-class-tool img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.item-class-tool p{
+    margin: 0;
+}
+.item-class-tool .description{
+    float: left;
+    overflow: hidden;
+    margin-left: 12px;
+}
+.item-class-tool .link{
+    font-size: 14px;
+}
+.link a{
+    color: #2b50b4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.system-requirement{
+    margin-top: 20px;
+}
+.btn-buy{
+    color: white;
+    background-color: #1c375b;
+    border-color: #1c375b;
+}
+.btn-buy:hover{
+    color: #1c375b;
+    background-color: white;
+    border-color: #1c375b;
+}
+@media (min-width: 992px) {
+    .class-utility{
+        padding-left: 50px !important;
+    }
+    .class-tool{
+        padding-left: 50px !important;
+    }
+    .about-tool{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:  979px) {
+    .detail{
+        margin-top: 100px;
+    }
+    .class-tool{
+        margin-top: 15px;
+    }
+    .detail-class-title h1{
+        font-size: 25px;
+    }
+    .detail-class-title p{
+        font-size: 15px;
+    }
+    .class-utility{
+        margin-top: 20px;
+    }
+    .about-tool{
+        margin-top: 20px;
+    }
+}
