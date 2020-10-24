@@ -7,7 +7,7 @@ body{
     -khtml-user-select:none;
     -webkit-user-select:none;
 }
-input[type=text]:focus{
+input[type=text],input[type=email],input[type=password]:focus{
     outline: none;
     box-shadow:none !important;
     border:1px solid #ccc !important;
@@ -275,3 +275,32 @@ footer ul{
 }
 }
 /* footer end */
+
+
+/* login page start */
+.h-100vh{
+    height: 100vh;
+}
+.w-320px{
+    max-width: 320px;
+}
+.login-btn{
+    color: white;
+    background-color: #1c375b;
+    border-color: #1c375b;
+}
+.login-btn:hover{
+    color: #1c375b;
+    background-color: white;
+    border-color: #1c375b;
+}
+a.no-underline{
+    text-decoration: none;
+}
+a.back{
+    color: #1c375b;
+}
+.sign-in{
+    color: #1c375b;
+}
+/* login page end */
